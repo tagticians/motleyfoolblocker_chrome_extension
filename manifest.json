@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["*://finance.yahoo.com/*", "*://www.google.com/finance/*"],
-      "js": ["hide-motleyfool.js"],
+      "js": ["jquery-3.6.0.js", "jquery.initialize.js", "hide-motleyfool.js"],
       "run_at": "document_idle"
     }
   ],
