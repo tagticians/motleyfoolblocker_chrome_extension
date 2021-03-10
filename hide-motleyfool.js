@@ -2,6 +2,7 @@ if (document.location.hostname == "finance.yahoo.com") {
         // For Yahoo Finance
         var mfArticlesRemoved = 0;
 
+        // Added jQuery Initialize https://github.com/pie6k/jquery.initialize from @pie6k
         // Remove Main Article Blocks
         $.initialize("#quoteNewsStream-0-Stream > ul > li.js-stream-content", function() {
             if ($(this).text().startsWith('Motley Fool')) {

@@ -2,16 +2,15 @@
   "manifest_version": 2,
 
   "name": "The Motley Fool Blocker for Yahoo Finance and Google Finance",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Filter out The Motley Fool from you favorite finance news sources.",
   "author": "Matthew Niederberger",
 
   "browser_action": {
-    //TODO "default_icon": "icon.png",
     "default_popup": "popup.html",
     "default_title": "The Motley Fool Blocker for Yahoo Finance and Google Finance",
     "default_icon": {
-      "64": "images/128.png"  
+      "128": "images/128.png"  
     }
   },
   "content_scripts": [
