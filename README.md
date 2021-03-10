@@ -1,4 +1,4 @@
-# motleyfoolblocker_chrome_extension
+# The Motley Fool Blocker - Chrome Extension
 This is a simple Chrome Extension to block The Motley Fool from being visible on Yahoo Finance and Google Finance quote pages.
 
 # What does it do?
